@@ -32,6 +32,7 @@ public class Product {
     private Set<OrderItem> items = new HashSet<>();
 
     public Product() {
+        super();
     }
 
     public Product(Long id, String name, String description, Double price, String imgUrl, Set<Category> categories) {
