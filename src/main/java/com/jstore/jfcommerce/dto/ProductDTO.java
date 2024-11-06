@@ -30,6 +30,8 @@ public class ProductDTO {
         return entity;
     }
 
+
+
     public Long getId() {
         return id;
     }
